@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Arial;
+  font-weight: 400;
+  src: url("fonts/Arial.ttf");
+}
+
+@font-face {
+  font-family: Arial;
+  font-weight: 400;
+  font-style: italic;
+  src: url("fonts/Arial_Italic.ttf");
+}
+
+@font-face {
+  font-family: Arial;
+  font-weight: 700;
+  src: url("fonts/Arial_Bold.ttf");
+}
+
+@font-face {
+  font-family: Arial;
+  font-weight: 700;
+  font-style: italic;
+  src: url("fonts/Arial_Bold_Italic.ttf");
+}
+
+@page {
+  size: A4;
+  margin: 2.3cm 1.7cm;
+
+  @bottom-center {
+    /* Zentrierte Seitenzahl am unteren Ende der Seite. */
+    content: counter(page);
+    font-size: 10pt;
+    color: lightgray;
+  }
+}
+
+html {
+  font-family: "Arial", sans-serif;
+  font-size: 11pt;
+}
+
+// Komponenten
+@import "components/about";
+@import "components/headline";
+@import "components/link";
+@import "components/list";
+@import "components/table";
+
+// Utilities
+@import "util/pagebreak";

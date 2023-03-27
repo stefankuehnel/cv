@@ -1,0 +1,43 @@
+.about {
+  margin-bottom: 40px;
+
+  img {
+    float: right;
+    width: 175px;
+    height: 175px;
+    border-radius: 30px;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  p:first-of-type {
+    margin-top: 0.2rem;
+  }
+
+  address {
+    font-style: normal;
+    line-height: 1.4;
+  }
+
+  .link,
+  .email {
+    display: flex;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    a {
+      margin-left: 5px;
+    }
+  }
+
+  .link {
+    svg {
+      transform: rotate(-45deg);
+    }
+  }
+}

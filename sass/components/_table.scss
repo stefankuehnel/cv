@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+
+  td {
+    vertical-align: top;
+
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+
+    &:nth-child(1) {
+      width: 30%;
+    }
+
+    &:nth-child(2) {
+      width: 70%;
+    }
+
+    p {
+      margin: 0;
+      line-height: 1.5;
+    }
+  }
+}

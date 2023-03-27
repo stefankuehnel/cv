@@ -1,0 +1,14 @@
+ul {
+    list-style-position: outside;
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+    li {
+        line-height: 1.5;
+
+        div {
+            margin-left: 10px;
+        }
+    }
+}
